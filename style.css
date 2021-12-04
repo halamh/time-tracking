@@ -3,7 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: 0;
-    
+    cursor: pointer;
 }
 
 body {
@@ -180,5 +180,12 @@ main {
     }
     .profile {
         height: 150px;
+    }
+    .frequency {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: auto;
+        padding: 2em;
     }
 }
